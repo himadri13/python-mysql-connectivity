@@ -8,7 +8,7 @@ cursor= mydb.cursor()
 #creates new table
 s='''Create table students 
    (ID integer,
-    Marks integer,
+    marks integer,
     Name char(25));'''
 cursor.execute(s)
 mydb.commit()
